@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SpotifyMixer from './spotify/Spotify-Mixer';
 import Portfolio from './portfolio/Portfolio';
-import Homepage from './Homepage';
+import Homepage from './Homepage/Homepage';
 
 function App() {
   return (
