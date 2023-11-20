@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, Typography, BoxProps, Button } from '@mui/material';
 import { BsFolder2Open } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
 import '../styles.css';
 
 interface IPathGuide {
