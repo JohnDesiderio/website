@@ -1,15 +1,22 @@
 import React from 'react';
-import { Container, Button } from '@mui/material';
-import { Link } from 'react-router-dom'
+import { Box, Typography } from '@mui/material';
+import PathGuide from './components/path-guide';
+import './styles.css';
 
 const Homepage:React.FC<{}> = () => {
     return (
-        <Container className="font-bold">
-            This is landing page and place for redirecting toward other pages.
-            <Link to='/website/portfolio'>Click Me!</Link>
-
-            <Button href='/website/portfolio'>Portfolio</Button>
-        </Container>
+        <Box className='first-box' display='flex' justifyContent='center' alignItems='center' flexDirection='column'>
+            <PathGuide 
+                additional_style='box-link-top'
+                directory_text='/portfolio'
+                link='/website/portfolio'
+            />
+            <PathGuide 
+                additional_style='box-link-bottom'
+                directory_text='/playlist-mixer'
+                link='/website/playlist-mixer'
+            />
+        </Box>
     )
 }
 

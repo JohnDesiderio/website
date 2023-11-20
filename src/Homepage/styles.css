@@ -1,0 +1,49 @@
+.box-link {
+    width: 80vw;
+    height: 80px;
+    background-color: white;
+}
+
+.box-link:hover {
+    color: blue;
+}
+
+.box-link-top {
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid black;
+    border-bottom: solid white;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.box-link-bottom {
+    border-left: solid black;
+    border-right: solid black;
+    border-top: solid white;
+    border-bottom: solid black;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.box-link-bottom:hover, .box-link-top:hover {
+    border: solid blue;
+}
+
+.first-box {
+    width: 100vw;
+    height: 100vh; 
+}
+
+.svg-element {
+    height: 40px;
+    width: 40px;
+}
+
+.text-box {
+    margin-left: 30px;
+}
+
+.direct-text {
+    font-size: 'text-xl';
+}
