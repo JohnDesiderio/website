@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, BoxProps, Button } from '@mui/material';
+import { Box, BoxProps, Link } from '@mui/material';
 import { BsFolder2Open } from 'react-icons/bs';
 import '../styles.css';
 
@@ -13,24 +13,14 @@ type PathGuideProps = BoxProps & IPathGuide;
 
 const PathGuide:React.FC<PathGuideProps> = (props: PathGuideProps) => {
     return (
-        <Button href={`${props.link}`}>
-            <Box 
-                className='text-box' 
-                display='flex' 
-                flexDirection='row' 
-                alignItems='center'
-            >
-                <BsFolder2Open className='svg-element'/>
-                <Typography
-                    sx={{
-                        fontSize: 'clamp(1rem, 2rem, 2rem)',
-                        paddingTop: '10px'
-                    }}
-                >
-                    &ensp;{props.directory_text}
-                </Typography>
+        <Link 
+            underline='none'
+            href={props.link}
+        >
+            <Box display='flex' flexDirection='row' className={`box-link ${props.additional_style}`}>
+                <BsFolder2Open className='svg-element'/>&ensp;{props.directory_text}
             </Box>
-        </Button>
+        </Link>
     )
 }
 

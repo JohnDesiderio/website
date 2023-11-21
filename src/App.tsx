@@ -9,7 +9,6 @@ import ContactMe from './portfolio/pages/Contact-Me';
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route>
           <Route path='/' element={<Homepage/>}/>
@@ -21,8 +20,7 @@ function App() {
           <Route path='/website/portfolio/Contact-Me' element={<ContactMe/>}/>
           <Route path='/website/playlist-mixer' element={<SpotifyMixer/>}/>
         </Route> 
-      </Routes>
-    </BrowserRouter>    
+      </Routes>    
   );
 }
 
