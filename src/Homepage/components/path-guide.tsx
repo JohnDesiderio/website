@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, BoxProps, Link } from '@mui/material';
+import { Box, BoxProps } from '@mui/material';
+import { Link } from 'react-router-dom';
 import { BsFolder2Open } from 'react-icons/bs';
 import '../styles.css';
 
@@ -14,8 +15,8 @@ type PathGuideProps = BoxProps & IPathGuide;
 const PathGuide:React.FC<PathGuideProps> = (props: PathGuideProps) => {
     return (
         <Link 
-            underline='none'
-            href={props.link}
+    
+            to={props.link}
         >
             <Box display='flex' flexDirection='row' className={`box-link ${props.additional_style}`}>
                 <BsFolder2Open className='svg-element'/>&ensp;{props.directory_text}

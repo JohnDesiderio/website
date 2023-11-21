@@ -9,12 +9,12 @@ const Homepage:React.FC<{}> = () => {
             <PathGuide 
                 additional_style='box-link-top'
                 directory_text='/portfolio'
-                link='/website/portfolio'
+                link='/portfolio'
             />
             <PathGuide 
                 additional_style='box-link-bottom'
                 directory_text='/playlist-mixer'
-                link='/website/playlist-mixer'
+                link='/playlist-mixer'
             />
         </Box>
     )

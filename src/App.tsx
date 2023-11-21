@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import SpotifyMixer from './spotify/Spotify-Mixer';
 import Portfolio from './portfolio/Portfolio';
 import Homepage from './Homepage/Homepage';
@@ -13,12 +13,12 @@ function App() {
         <Route>
           <Route path='/' element={<Homepage/>}/>
           <Route index path='/website/' element={<Homepage/>}/>
-          <Route path='/website/portfolio' element={<Portfolio/>}/>
-          <Route path='/website/portfolio/about' element={<About/>}/>
-          <Route path='/website/portfolio/Resume' element={<Resume/>}/>
-          <Route path='/website/portfolio/Projects' element={<Projects/>}/>
-          <Route path='/website/portfolio/Contact-Me' element={<ContactMe/>}/>
-          <Route path='/website/playlist-mixer' element={<SpotifyMixer/>}/>
+          <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/portfolio/about' element={<About/>}/>
+          <Route path='/portfolio/Resume' element={<Resume/>}/>
+          <Route path='/portfolio/Projects' element={<Projects/>}/>
+          <Route path='/portfolio/Contact-Me' element={<ContactMe/>}/>
+          <Route path='/playlist-mixer' element={<SpotifyMixer/>}/>
         </Route> 
       </Routes>    
   );
