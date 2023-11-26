@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@mui/material';
+import { Link, Box } from '@mui/material';
 import './styles.css';
 
 interface IMenuItem {
@@ -12,11 +12,17 @@ const MenuItem:React.FC<IMenuItem> = (props: IMenuItem) => {
 
     return (
         <Link
-            underline='none' 
-            className={props.toggled ? 'selected-menu-item' : 'unselected-menu-item'} 
+            underline='none'
             href={`#/portfolio/${props.link}`}
         >
-            {props.dir_text}
+            <Box
+                className={props.toggled ? 'selected-menu-item' : 'unselected-menu-item'} 
+                justifyContent='center'
+                display='flex'
+            >
+                {props.dir_text}
+            </Box>
+
         </Link>
     )
 }
