@@ -3,6 +3,7 @@ import {
     Box,
     ListItemButton,
     List,
+    Divider,
 } from '@mui/material';
 
 interface ISmallMenuDrawer {
@@ -14,32 +15,44 @@ const SmallMenuDrawer:React.FC<ISmallMenuDrawer> = (props: ISmallMenuDrawer) => 
         <Box
             role='presentation'
         >
-            <List>
+            <List
+                sx={{
+                    backgroundColor: 'rgba(254, 242, 242)',
+                }}
+            >
                 <ListItemButton 
                     href='./#/portfolio'
                     disabled={props.value===0}
                 >
-                    Homepage
+                    Portfolio
                 </ListItemButton>
+                <Divider/>
                 <ListItemButton 
+                    className='bg-red-400'
                     href='#/portfolio/resume'
                     disabled={props.value===1}
                 >
                     Resume
                 </ListItemButton>
+                <Divider/>
                 <ListItemButton 
+                    className='bg-red-400'
                     href='#/portfolio/projects'
                     disabled={props.value===2}
                 >
                     Projects
                 </ListItemButton>
+                <Divider/>
                 <ListItemButton 
+                    className='bg-red-400'
                     href='#/portfolio/about'
                     disabled={props.value===3}
                 >
                     About
                 </ListItemButton>
+                <Divider/>
                 <ListItemButton 
+                    className='bg-red-400'
                     href='#/portfolio/contact-me'
                     disabled={props.value===4}
                 >
