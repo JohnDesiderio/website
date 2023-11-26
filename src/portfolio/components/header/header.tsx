@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Link } from '@mui/material';
 import HeaderMenu from './header-menu';
 import './styles.css';
+import MenuItem from './menu-item';
 
 interface IHeaderProps {
     value: number
@@ -23,12 +24,7 @@ const Header:React.FC<IHeaderProps> = (props: IHeaderProps) => {
         >
             <Box className="header-child-box-left">
                 <Box>
-                    <Link 
-                        underline='none' 
-                        href='#/portfolio'
-                    >
-                    John Desiderio
-                    </Link>
+                   <MenuItem toggled={props.value === 0} dir_text='Portfolio' link='#/portfolio'/> 
                 </Box>
             </Box>
             <Box className="header-child-box-right" display='block' flexDirection='row' justifyContent='end'>
