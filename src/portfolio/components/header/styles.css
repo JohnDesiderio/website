@@ -2,41 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .header-box {
     width: 100vw;
     height: 10vh;
-    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .header-child-box-right {
     width: 80vw;
+    float: right;
 }
 
 .header-child-box-left {
-    padding-left: 5vw; 
     width: 20vw;
+    padding-left: 5vw;
 }
 
 .header-menu-box {
-    float: right;
     padding-right: 5vw;
+}
+
+.menu-item {
+    color: black;
+    height: 5vh;
+    width: 6vw;
+    margin-left: 15px;
+    position: relative; 
 }
 
 .selected-menu-item {
     color: grey;
-    width: 6vw;
-    height: 2.5vh;
 }
 
 .selected-menu-item:hover {
     cursor: default; 
 }
 
-.unselected-menu-item {
-    width: 6vw;
-    height: 2.5vh;
+.unselected-menu-item:hover {
+    background-color: grey;
 }
 
-.unselected-menu-item:hover {
-    color: red;
+.smaller-header {
+    width: 100vw;
 }

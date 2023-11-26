@@ -16,9 +16,10 @@ const MenuItem:React.FC<IMenuItem> = (props: IMenuItem) => {
             href={`#/portfolio/${props.link}`}
         >
             <Box
-                className={props.toggled ? 'selected-menu-item' : 'unselected-menu-item'} 
+                className={`${props.toggled ? 'selected-menu-item' : 'unselected-menu-item'} menu-item`} 
                 justifyContent='center'
                 display='flex'
+                alignItems='center'
             >
                 {props.dir_text}
             </Box>
