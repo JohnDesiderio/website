@@ -1,12 +1,14 @@
 import React from 'react';
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
+import Header from '../components/header/header';
 
 export const About:React.FC<{}> = () => {
     
     return (
-        <Container>
+        <Box>
+            <Header value={3} />
             About, About
-        </Container>
+        </Box>
     )
 }
 

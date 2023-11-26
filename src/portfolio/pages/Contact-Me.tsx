@@ -1,12 +1,14 @@
 import React from 'react';
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
+import Header from '../components/header/header';
 
 export const ContactMe:React.FC<{}> = () => {
 
     return (
-        <Container>
+        <Box>
+            <Header value={4}/>
             Contact Me Please I want substantial human connection
-        </Container>
+        </Box>
     )
 }
 

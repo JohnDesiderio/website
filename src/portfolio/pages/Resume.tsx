@@ -1,11 +1,12 @@
-import { Button, Container } from '@mui/material';
+import { Box } from '@mui/material';
+import Header from '../components/header/header';
 
-export const Resume:React.FC<{}> = () => {
+const Resume:React.FC<{}> = () => {
     return (
-        <Container>
+        <Box>
+            <Header value={1}/>
             Resume, Resume
-            <Button href='/website/'>Click Me!</Button>
-        </Container>
+        </Box>
     )
 }
 

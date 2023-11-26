@@ -1,10 +1,12 @@
-import { Container } from '@mui/material';
+import { Box } from '@mui/material';
+import Header from '../components/header/header';
 
 export const Projects:React.FC<{}> = () => {
     return (
-        <Container>
+        <Box>
+            <Header value={2} />
             Projects, projects
-        </Container>
+        </Box>
     )
 }
 

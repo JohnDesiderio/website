@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-box {
+    width: 100vw;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.header-child-box-right {
+    width: 80vw;
+}
+
+.header-child-box-left {
+    padding-left: 5vw; 
+    width: 20vw;
+}
+
+.header-menu-box {
+    float: right;
+    padding-right: 5vw;
+}
+
+.selected-menu-item {
+    width: 10vw;
+    height: 2vh;
+}
+
+.unselected-menu-item {
+    width: 10rem;
+    height: 2vh;
+    background-color: red;
+}
+
+.unselected-menu-item:hover {
+    opacity: 1;
+}

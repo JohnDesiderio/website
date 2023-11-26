@@ -1,17 +1,16 @@
-import { ReactDOM } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import React, { useEffect } from 'react';
-import { Container, Button } from '@mui/material';
-import Resume from './pages/Resume';
+import { Box, Button } from '@mui/material';
+import Header from './components/header/header';
 
 const Portfolio:React.FC<{}> = () => {
     
     return (
-        <Container>
+        <Box>
+            <Header value={0}/>
             Portfolio, Portfolio
 
             <Button href='/website/'>Click Me!</Button>
-        </Container>
+        </Box>
     )
 }
 
