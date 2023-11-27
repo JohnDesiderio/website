@@ -40,14 +40,26 @@
     cursor: default; 
 }
 
-.unselected-menu-item:hover {
-    background-color: grey;
-}
-
 .smaller-header {
     width: 100vw;
 }
 
 .portfolio-page {
     min-height: 100vh;
+}
+
+.icon-style {
+    height: 32px;
+    width: 32px;
+    margin-left: 15px;
+}
+
+.linked-icon:hover {
+    color:  #0077b5;
+    cursor: pointer;
+}
+
+.github-icon:hover {
+    color: #6cc644;
+    cursor: pointer;
 }
