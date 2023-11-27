@@ -9,7 +9,7 @@ const Portfolio:React.FC<{}> = () => {
     return (
         <Box className='bg-red-50 portfolio-page'>
             <Header value={0}/>
-            <Box display='flex' flexDirection='row'>
+            <Box display='flex' flexDirection='row' className='bio-text'>
                 <Typography className='bio-text'>
                     Welcome to my portfolio! My name is John Desiderio, 
                     and I am a recent graduate from the University of Georgia. 

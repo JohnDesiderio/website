@@ -4,7 +4,14 @@
     font-size: 20px;
 }
 
-.portfolio-image {
+.page-header {
+    font-size: 3rem;
+    padding-left: 5vw;
+}
 
-    margin-right:  5vw;
+.experience-typography {
+    margin-left: 5vw; 
+    font-weight: 400px;
+    font-size: 36px;
+    font-weight: 600;
 }

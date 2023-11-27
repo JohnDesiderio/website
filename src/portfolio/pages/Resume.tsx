@@ -1,11 +1,33 @@
-import { Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import Header from '../components/header/header';
+import InternOne from '../components/experience-block/examples/intern-one';
+import InternTwo from '../components/experience-block/examples/intern-two';
+import SurveyCaller from '../components/experience-block/examples/survey-caller';
+import ServerCashier from '../components/experience-block/examples/server-cashier';
+import SkillsSection from '../components/skills-section/skills';
+import EducationSection from '../components/education/education';
+import '../styles.css';
 
 const Resume:React.FC<{}> = () => {
     return (
-        <Box>
+        <Box display='flex' flexDirection='column' className='bg-red-50 portfolio-page'>
             <Header value={1}/>
-            Resume, Resume
+            <Box
+                className='page-header'
+            >
+                Resume
+            </Box>
+            <Box
+                className='experience-typography'
+            >
+                Experience
+            </Box>
+            <InternTwo/>
+            <InternOne/>
+            <SurveyCaller/>
+            <ServerCashier/>
+            <SkillsSection/>
+            <EducationSection/>
         </Box>
     )
 }
