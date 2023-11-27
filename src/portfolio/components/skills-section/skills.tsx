@@ -16,8 +16,11 @@ const SkillsSection:React.FC<{}> = () => {
         <Box>
             <Box className='skills-section skills-typography'>Skills</Box>
             <Box className='skills-section skills-list'>
-                {skills.map(skill => 
-                    <Box className='font-bold text-lg inline-block skill-point'>
+                {skills.map((skill, idx) => 
+                    <Box 
+                        key={`skills-section-${idx}`}
+                        className='font-bold text-lg inline-block skill-point'
+                    >
                         {skill}
                     </Box>    
                 )}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@mui/material';
+import { Box, Link } from '@mui/material';
 import Header from '../components/header/header';
 import '../styles.css';
 
@@ -29,7 +29,11 @@ export const About:React.FC<{}> = () => {
                 exciting technology. I maintain my web apps in my free time, 
                 but if I am away from the screen, I prefer to read or spend 
                 time with friends. If you want to connect with me on 
-                Goodreads, you should click the link and befriend me!
+                Goodreads, you should click the 
+                <Link underline='none' href='https://www.goodreads.com/user/show/136090540-john'>
+                &nbsp;link&nbsp;
+                </Link> 
+                and befriend me!
             </Box>
         </Box>
     )
