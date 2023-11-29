@@ -9,12 +9,14 @@ const details:Array<string> = [
     'Tested the recommender system on participants to gauge the reception of the movie recommendations',
     'Presented our research in a paper that compared the results of three different recommender systems',
 ]
+const link = 'https://github.com/JohnDesiderio/Data_Mining_Final_Proj/blob/main/Content%20Based%20Recommender.ipynb';
 
 const Recommender:React.FC<{}> = () => {
     const props: IProject = {
         name: name,
         details: details,
         sh: 'recommnender',
+        link: link,
     }
     
     return (<Project {...props}/>);

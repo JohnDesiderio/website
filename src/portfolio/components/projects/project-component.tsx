@@ -5,7 +5,12 @@ import './styles.css';
 
 const Project:React.FC<IProject> = (props: IProject) => {
     return (
-        <Box className='project-component'>
+        <Box 
+            className={props.last === true 
+                ? 'project-component last-part'
+                : 'project-component'
+            }
+        >
             <Box className='project-title'>
                 {props.link !== undefined ?
                     <Box display='flex' flexDirection='row'>
