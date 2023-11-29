@@ -2,6 +2,7 @@ import { Box } from '@mui/material';
 import Header from '../components/header/header';
 import SpotifyMixer from '../components/projects/examples/spotify-mixer';
 import Recommender from '../components/projects/examples/recommender';
+import GroupMeBot from '../components/projects/examples/groupme-bot';
 
 export const Projects:React.FC<{}> = () => {
     return (
@@ -13,6 +14,7 @@ export const Projects:React.FC<{}> = () => {
                 Projects
             </Box>
             <SpotifyMixer/>
+            <GroupMeBot/>
             <Recommender/>
         </Box>
     )
