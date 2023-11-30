@@ -29,16 +29,36 @@ const SmallerHeader:React.FC<ISmallerHeader> = (props: ISmallerHeader) => {
                     lg: 'none',
                     xl: 'none',
                 }}
-                justifyContent='center'
-                alignItems='center'
-            >  
-                <FaCompass
-                    style={{
-                        height: '40px',
-                        width: '40px'
-                    }}
-                />
-                
+                flexDirection='row'
+            >
+                <Box className='side-box'/>
+                <Box 
+                    className='center-box'
+                    display='flex'
+                    justifyContent='center'
+                >
+                    <Typography
+                        sx={{
+                            fontSize: '2rem',
+                            fontFamily: 'Helvetica',
+                        }}
+                    >        
+                        John Desiderio
+                    </Typography> 
+                </Box>
+                <Box 
+                    className='side-box'
+                    display='flex'
+                    flexDirection='row-reverse'
+                >
+                    <FaCompass
+                        style={{
+                            height: '40px',
+                            width: '40px',
+                            marginRight: '5vw',
+                        }}
+                    />
+                </Box>
             </Box>
             <Drawer
                 anchor='top'

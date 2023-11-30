@@ -43,6 +43,7 @@
 
 .smaller-header {
     width: 100vw;
+    margin-bottom: 10px;
 }
 
 .portfolio-page {
@@ -55,12 +56,22 @@
     margin-left: 15px;
 }
 
+.icon-style:hover {
+    cursor: pointer;
+}
+
 .linked-icon:hover {
     color:  #0077b5;
-    cursor: pointer;
 }
 
 .github-icon:hover {
     color: #6cc644;
-    cursor: pointer;
+}
+
+.side-box {
+    width: 20vw;
+}
+
+.center-box {
+    width: 60vw;
 }

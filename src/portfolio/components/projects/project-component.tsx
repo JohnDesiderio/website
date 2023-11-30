@@ -13,7 +13,10 @@ const Project:React.FC<IProject> = (props: IProject) => {
         >
             <Box className='project-title'>
                 {props.link !== undefined ?
-                    <Box display='flex' flexDirection='row'>
+                    <Box 
+                        display='flex'
+                        className='flex-col lg:xl:flex-row'
+                    >
                         <Box className='font-medium'>{props.name},&nbsp;</Box>
                         <Link
                             underline='none'

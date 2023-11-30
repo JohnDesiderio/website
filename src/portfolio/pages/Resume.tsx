@@ -1,4 +1,4 @@
-import { Box, Typography } from '@mui/material';
+import { Box, Divider } from '@mui/material';
 import Header from '../components/header/header';
 import InternOne from '../components/experience-block/examples/intern-one';
 import InternTwo from '../components/experience-block/examples/intern-two';
@@ -23,9 +23,23 @@ const Resume:React.FC<{}> = () => {
                 Experience
             </Box>
             <InternTwo/>
+            <Divider
+                variant='middle'
+                className='visible lg:invisible'
+
+            />
             <InternOne/>
+            <Divider
+                variant='middle'
+                className='visible lg:invisible'
+            />
             <SurveyCaller/>
+            <Divider
+                variant='middle'
+                className='visible lg:invisible'
+            />
             <ServerCashier/>
+            
             <SkillsSection/>
             <EducationSection/>
         </Box>

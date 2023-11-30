@@ -1,12 +1,14 @@
 import React from 'react';
-import { Box, List, ListItemText, Typography } from '@mui/material';
+import { Box, List, ListItemText } from '@mui/material';
 import { IExperience } from './types'; 
 import './styles.css';
 
 const Experience:React.FC<IExperience> = (props: IExperience) => {
     return (
         <Box className='experience-box'>
-            <Box display='flex' flexDirection='row'>
+            <Box display='flex'
+                className='flex-col lg:xl:flex-row'
+            >
                 <Box className='experience-position'>
                     {props.position},&nbsp;
                 </Box>
