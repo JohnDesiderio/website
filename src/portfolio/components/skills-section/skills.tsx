@@ -4,9 +4,9 @@ import './styles.css';
 
 const skills: Array<string> = [
     'JavaScript', 'TypeScript', 'Node.js', 'React.js', 'RxJS', 'Material-UI',
-    'HTML5/CSS3', 'NextJS', 'MongoDB', 'Firebase', 'SQL Server', 'UI/UX Design',
-    'Full-Stack Development', 'Front-End Development', 'Back-End Development',
-    'Java', 'Spring Boot', 'Python', 'Flask', 'Data Science', 'Recommender Systems',
+    'HTML5/CSS3', 'NextJS', 'Responsive Design', 'MongoDB', 'Firebase', 'SQL Server', 'UI/UX Design',
+    'Full-Stack Development', 'Front-End Development', 'Back-End Development', 'UML',
+    'Java', 'Spring Boot', 'Python', 'Flask', 'Data Science', 'Data Analytics', 'Recommender Systems',
     'Information Filtering', 'Cloud Programming', 'SQL', 'C++', 'C', 'Algorithms',
     'Simulation and Modeling', 'Simpy', 
 ];
