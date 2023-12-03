@@ -12,11 +12,14 @@ const details:Array<string> = [
     'Designed applicaiton through the asynchronous reactive programming library RxJS',
     'Awaiting approval from Spotify to put the application into production mode (the app is available for a demo)'
 ]
+const link = 'https://github.com/JohnDesiderio/playlist-app'
+
 const SpotifyMixer:React.FC<{}> = () => {
     const props: IProject = {
         name: name,
         details: details,
         sh: 'spotify-mixer',
+        link: 'https://github.com/JohnDesiderio/playlist-app',
     }
     
     return (<Project {...props}/>);

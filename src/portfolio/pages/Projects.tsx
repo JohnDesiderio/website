@@ -19,8 +19,8 @@ export const Projects:React.FC<{}> = () => {
             </Box>
             <SpotifyMixer/>
             <PeripheralSimulator/>
-            <ProgressiveWebApp/>
             <GroupMeBot/>
+            <ProgressiveWebApp/>
             <Recommender/>
             <DiscreteEvent/>
             <Bookstore/>
