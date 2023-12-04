@@ -1,11 +1,9 @@
 import React from 'react';
-import { Container } from '@mui/material';
+import SpotifyMixerGrid from './components/grid/spotify-mixer-grid';
 
 const SpotifyMixer:React.FC<{}> = () => {
     return (
-        <Container>
-            This is the landing page for the Spotify mixer.
-        </Container>
+        <SpotifyMixerGrid/>
     )
 }
 

@@ -19,7 +19,7 @@ function App() {
           <Route path='/portfolio/Projects' element={<Projects/>}/>
           <Route path='/portfolio/Contact-Me' element={<ContactMe/>}/>
           <Route path='/playlist-mixer' element={<SpotifyMixer/>}/>
-        </Route> 
+        </Route>
       </Routes>  
   );
 }

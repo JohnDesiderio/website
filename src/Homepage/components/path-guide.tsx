@@ -15,7 +15,7 @@ const PathGuide:React.FC<PathGuideProps> = (props: PathGuideProps) => {
     return (
             <Link 
                 underline='none'
-                href={`/website/#${props.link}`}
+                href={`/website/#/${props.link}`}
             >
                 <Box display='flex' flexDirection='row' className={`box-link ${props.additional_style}`}>
                     <BsFolder2Open className='svg-element'/>&ensp;{props.directory_text}
