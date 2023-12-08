@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/website/static/css/main.dd6a07d2.css",
-    "main.js": "/website/static/js/main.a8e7506f.js",
+    "main.js": "/website/static/js/main.e729bfc0.js",
     "static/js/787.c922dae8.chunk.js": "/website/static/js/787.c922dae8.chunk.js",
     "static/media/john-desiderio.png": "/website/static/media/john-desiderio.7055fd7e126c2b1b2473.png",
     "index.html": "/website/index.html",
     "main.dd6a07d2.css.map": "/website/static/css/main.dd6a07d2.css.map",
-    "main.a8e7506f.js.map": "/website/static/js/main.a8e7506f.js.map",
+    "main.e729bfc0.js.map": "/website/static/js/main.e729bfc0.js.map",
     "787.c922dae8.chunk.js.map": "/website/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd6a07d2.css",
-    "static/js/main.a8e7506f.js"
+    "static/js/main.e729bfc0.js"
   ]
 }
