@@ -13,7 +13,7 @@ export const About:React.FC<{}> = () => {
             >
                 About
             </Box>
-            <Box className='bio-text'>
+            <Box className='bio-text my-6'>
                 My name is John Desiderio, and I am an aspiring software engineer 
                 open to all opportunities. I am originally from Atlanta, 
                 GA, but I moved to Statesboro, GA when I was nine. Growing 

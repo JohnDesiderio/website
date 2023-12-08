@@ -4,7 +4,7 @@
  * verify the user retrieving the token 
  */
 
-const REDIRECT_URI : string = 'http://localhost:3000/website/#/playlist-mixer/build-playlist';
+const REDIRECT_URI : string = 'http://localhost:3000/website/'//#/playlist-mixer/build-playlist';
 
 export const generateRandomString = (length:number):string => {
     let text = '';
